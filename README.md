@@ -1,5 +1,6 @@
 # Line detection with Canny Filter and Hough Transform
-    
+# author : nguyenrobot
+# copyright nguyenrobot
 In this tutorial, we use essentially Canny Filter and Hough Transform to detect lines. Why Hough Transform ? With only colour selection, we can not find parameters of detected lines and it's also limited by lines' colour. So, Hough Transformation is here to help us mathematically identify lines on a frame.
 
 Our processing consist of :
@@ -11,6 +12,10 @@ Our processing consist of :
 As you see, we need to find parameters for Gaussian Filter, Canny Edge detection, Hough Transform,... It could work well on a specific image frame but perhaps not on the others, so the tricky part is how to always use good parameters. We will work on this difficult puzzle later. In this tutorial, we just need to understand the basics usages of Canny Filter and Hough Transform.
 Furthermore, to detect lane's lines in a curve, more sophisticated technics are needed, they will be mentioned in other tutorials.
 
+*Main script  
+line_detection_by_canny_gausian_hough.py
+*Main jupyter notebook  
+line_detection_by_canny_gausian_hough.ipynb
 *My previous tutorial on line-detection by colour selection and zone of interest filtering :*
 https://github.com/nguyenrobot/line_detection_by_color_zone_interest
 
