@@ -1,6 +1,6 @@
 # Line detection with Canny Filter and Hough Transform
-*author : nguyenrobot
-*copyright nguyenrobot
+*author : nguyenrobot  
+*copyright nguyenrobot  
 In this tutorial, we use essentially Canny Filter and Hough Transform to detect lines. Why Hough Transform ? With only colour selection, we can not find parameters of detected lines and it's also limited by lines' colour. So, Hough Transformation is here to help us mathematically identify lines on a frame.
 
 Our processing consist of :
