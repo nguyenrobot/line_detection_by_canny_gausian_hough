@@ -12,9 +12,9 @@ Our processing consist of :
 As you see, we need to find parameters for Gaussian Filter, Canny Edge detection, Hough Transform,... It could work well on a specific image frame but perhaps not on the others, so the tricky part is how to always use good parameters. We will work on this difficult puzzle later. In this tutorial, we just need to understand the basics usages of Canny Filter and Hough Transform.
 Furthermore, to detect lane's lines in a curve, more sophisticated technics are needed, they will be mentioned in other tutorials.
 
-*Main script  
+*Main script*
 line_detection_by_canny_gausian_hough.py  
-*Main jupyter notebook  
+*Main jupyter notebook*
 line_detection_by_canny_gausian_hough.ipynb  
 *My previous tutorial on line-detection by colour selection and zone of interest filtering :*
 https://github.com/nguyenrobot/line_detection_by_color_zone_interest
