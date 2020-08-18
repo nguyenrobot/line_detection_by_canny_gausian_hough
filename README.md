@@ -13,9 +13,9 @@ As you see, we need to find parameters for Gaussian Filter, Canny Edge detection
 Furthermore, to detect lane's lines in a curve, more sophisticated technics are needed, they will be mentioned in other tutorials.
 
 *Main script  
-line_detection_by_canny_gausian_hough.py
+line_detection_by_canny_gausian_hough.py  
 *Main jupyter notebook  
-line_detection_by_canny_gausian_hough.ipynb
+line_detection_by_canny_gausian_hough.ipynb  
 *My previous tutorial on line-detection by colour selection and zone of interest filtering :*
 https://github.com/nguyenrobot/line_detection_by_color_zone_interest
 
